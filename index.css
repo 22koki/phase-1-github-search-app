@@ -1,3 +1,5 @@
+
+
 #main {
   display: flex;
   flex-direction: column;
@@ -10,4 +12,39 @@
 
 ul {
   list-style: none;
+}
+css
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.repo-card {
+    background-color: #096fd6;
+    border: 1px solid #097ef3;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.repo-card h3 {
+    margin-bottom: 10px;
+}
+
+.repo-card p {
+    margin-bottom: 10px;
+}
+
+.repo-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.repo-card a:hover {
+    text-decoration: underline;
 }
